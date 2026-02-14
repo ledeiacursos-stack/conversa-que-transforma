@@ -119,7 +119,7 @@
 <header>
     <h1>Conversa que Transforma</h1>
     <p>Curso completo de Comunicação e Resolução de Conflitos para quem deseja melhorar relacionamentos, fortalecer equipes e transformar diálogos difíceis em oportunidades de crescimento.</p>
-    <a href="#inscricao" class="btn">Quero me Inscrever</a>
+    <a href="https://wa.me/5599999999999" target="_blank" class="btn">Quero me Inscrever</a>
 </header>
 
 <section>
@@ -153,9 +153,20 @@
 
 <section id="inscricao" class="cta">
     <h2>Transforme suas Conversas Hoje Mesmo</h2>
-    <p>Invista no seu desenvolvimento e aprenda a construir diálogos que geram conexão, respeito e resultados.</p>
+    <p>Preencha o formulário abaixo para garantir sua vaga.</p>
     <br>
-    <a href="#" class="btn">Garantir Minha Vaga</a>
+    <form name="inscricao" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="inscricao">
+        <div style="max-width:500px;margin:0 auto;text-align:left;">
+            <label>Nome</label><br>
+            <input type="text" name="nome" required style="width:100%;padding:10px;margin-bottom:15px;border-radius:8px;border:none;">
+
+            <label>Email</label><br>
+            <input type="email" name="email" required style="width:100%;padding:10px;margin-bottom:15px;border-radius:8px;border:none;">
+
+            <button type="submit" class="btn" style="width:100%;border:none;cursor:pointer;">Quero me Inscrever</button>
+        </div>
+    </form>
 </section>
 
 <footer>
